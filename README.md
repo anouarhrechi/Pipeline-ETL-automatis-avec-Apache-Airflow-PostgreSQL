@@ -25,12 +25,10 @@ Voici un aperçu simple du workflow :
       Source CSV (GitHub)
                ↓
          Airflow DAG
-   ┌────────────────────────────┐
-   │ 1. extract_data            │
-   │ 2. transform_data          │
-   │ 3. load_data               │
-   │ 4. validate_load           │
-   └────────────────────────────┘
+     1. extract_data            
+     2. transform_data          
+     3. load_data               
+     4. validate_load  
                ↓
          Base PostgreSQL
 
